@@ -70,7 +70,7 @@ trainer = pl.Trainer(
 DiceLoss = 1 - (2 * intersection) / (sum(pred) + sum(mask))
 ```
 
-## 🎞 Layer-by-Layer Segmentation Visualization
+## Layer-by-Layer Segmentation Visualization
 
 The following animation shows the segmentation mask overlaid on the MRI slice-by-slice (like a mini video):
 
